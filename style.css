@@ -1,0 +1,41 @@
+* {
+    font-family: sans-serif, Verdana;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.homepage-title {
+    background-color: red;
+    font-size: 45px;
+}
+
+#pizza-img {
+    width: 400px;
+    height: auto;
+}
+
+#tacos-img {
+    width: 400px;
+    height: auto;
+}
+
+p {
+    text-align: justify;
+}
+
+ul, ol {
+    text-align: justify;
+}
+
+a {
+    font-size: 20px;
+}
+
+.home-button {
+    font-size: 20px;
+    font-weight: 800;
+}
