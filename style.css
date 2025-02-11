@@ -3,24 +3,55 @@
     font-size: 18px;
 }
 
+.recipes-list {
+    display: flex;
+    background-color: aliceblue;
+    text-align: center;
+    justify-content: center;
+}
+
+.recipes-list li {
+    margin-bottom: 16px;
+}
+
+.recipes-links {
+    font-size: 24px;
+}
+
+.title {
+    background-color: rgb(255, 90, 90);
+}
+
+
 h1 {
     text-align: center;
     font-size: 40px;
 }
 
 .homepage-title {
-    background-color: red;
+    background-color: rgb(255, 90, 90);
     font-size: 45px;
 }
 
 #pizza-img {
+    display: block;
     width: 400px;
     height: auto;
+    margin: auto;
 }
 
 #tacos-img {
+    display: block;
     width: 400px;
     height: auto;
+    margin: auto;
+}
+
+#ramen-img {
+    display: block;
+    width: 400px;
+    height: auto;
+    margin: auto;
 }
 
 p {
@@ -28,14 +59,13 @@ p {
 }
 
 ul, ol {
-    text-align: justify;
-}
-
-a {
-    font-size: 20px;
+text-align: justify;
 }
 
 .home-button {
+    display: flex;
     font-size: 20px;
     font-weight: 800;
+    justify-content: center;
+    margin-top: 50px;
 }
